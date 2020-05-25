@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  background: url(https://carmenstamalesonline.com/x/cdn/?https://storage.googleapis.com/wzukusers/user-26705752/images/5b295ce983ef0GMNGPX1/PWKN3AH.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.logo {
+  width: 256px;
+  min-height: 99px;
+  position: relative;
+  top: -10px;
+}
+
+.bg-light {
+  background-color: rgb(204, 0, 0) !important;
+}
+
+.menu-item {
+  color: #fff !important;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.navbar {
+  padding: 0;
+  padding-bottom: 10px;
+  display: grid;
+}
+
+.nav-group {
+  display: inline-flex;
+  margin: auto;
+  min-width: 1000px;
+}
+
+.navbar-collapse {
+  position: relative;
+  top: 15px;
+}
+
+.navbar-brand {
+  margin-right: 200px;
+}
+
+.sub-title {
+  width: 99vw;
+  height: 24px;
+  background: #fff;
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  /* padding: 40px 55px 45px 55px; */
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-inner form {
+  padding: 40px 55px 45px 55px;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(204, 0, 0);
+  border-color: rgb(204, 0, 0);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(204, 0, 0);
+  border-color: rgb(204, 0, 0);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color:rgb(254, 50, 0);
+  border-color: rgb(254, 50, 0);
+}
